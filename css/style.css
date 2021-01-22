@@ -3782,8 +3782,9 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  /* border-radius: 0.25rem; */
+ }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -8996,7 +8997,7 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 275px;
+  height: 225px;
   position: relative;
   display: block; }
 
@@ -9016,7 +9017,7 @@ h1, h2, h3, h4, h5,
     .blog-entry .text .heading {
       font-size: 20px;
       margin-bottom: 16px;
-      font-weight: 600; }
+      font-weight: 200; }
       .blog-entry .text .heading a {
         color: #000000; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
@@ -9028,7 +9029,13 @@ h1, h2, h3, h4, h5,
       font-size: 14px; }
   .blog-entry .meta-date {
     display: inline-block;
-    background: #f1648f; }
+    background: #f1648f;
+    width:30%;
+    margin-top:50.8%;
+    position: absolute;
+
+
+   }
     .blog-entry .meta-date span {
       display: block;
       color: #fff; }
